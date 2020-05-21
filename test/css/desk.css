@@ -1,0 +1,12 @@
+#header{
+	height: 40px;
+	width: 100%;
+	font-size: 30px;
+}
+.Mtop{
+	height: 1px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	background: #BBBBBB;
+}

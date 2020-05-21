@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  <!-- /文档兼容模式的定义/ -->
+    <!-- /viewport:显示窗口，width=device-width:显示窗口是客户端屏幕的宽度（满屏），initial-scale=1：初始比例大小：1/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>易读书——我要推荐</title>
+	<!--Core CSS -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <style >
+        .daily_bg
+        {
+        	background: none repeat scroll 0 0 #ecf0f1;
+        }
+        .a_fc
+        {
+        	color:black;
+        }
+    </style> -->
+	 <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body >
+ 
+  <div class="copyrights">Collect from <a href="http://www.php.cn/" >网页模板123</a></div>
+  <!-- Contact Section Start -->  
+	<section id="contact_section">
+		<div class="contact_section">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					    <div class="row">
+							<div class="section-title">
+								<h2>我要推荐</h2>
+								<p>分享你想要推荐的图书，为你喜爱的图书打Call。</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+								<div class="welcome_part wow fadeInRight">
+									<div class="welcome_icon">
+										<i class="fa fa-trophy fa-4x"></i>
+									</div>
+									<h2>我要推荐</h2>
+									<p>有没有一本书看完觉得很棒想要安利给身边的人，但是他们却不想看；又或者书单都看完了，找不到可以让自己打Call的书。没关系，点这里。尽情安利，解决书荒。 </p>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+								<div class="contact_form">
+									<div id="show_contact_msg"></div>
+								<!-- Contact Form Start -->
+									<form method="post" id="yds2_recommend" action="add_rem.php">
+										<input type="text" id="book_name" name="book_name" class="form-control contact_input_box wow fadeInUp" placeholder="Bookname" required/>
+										<input type="email" id="email" name="email" class="form-control contact_input_box wow fadeInUp" placeholder="E-mail" required/>
+										<textarea id="reason" name="reason" rows="5" cols="30" class="form-control contact_input_box wow fadeInUp" placeholder="Reason" required></textarea>
+										<button type="submit" class="btn btn-primary contact_button wow fadeInUp"> <i class="fa fa-send-o"></i>  Send recommend</button>
+									</form>
+								<!-- Contact Form End -->
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			</div>	
+		</div>	
+	</section>
+  <!-- Contact Section End -->	
+   <!--Core js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+	<!--common script init for all pages-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
